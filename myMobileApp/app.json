@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Expenzoo",
+    "slug": "expenzoo",
+    "scheme": "expenzoo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sahad.expenzoo"
+    },
+    "android": {
+      "package": "com.sahad.expenzoo",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b1a3bd1f-9ccc-4131-ac9a-813778602e19"
+      }
+    }
+  }
+}
